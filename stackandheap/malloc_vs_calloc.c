@@ -24,3 +24,7 @@ int main() {
 
     return 0;
 }
+
+// malloc:- Allocates memory but does NOT initialize values
+
+//calloc:- Allocates AND initializes to zero. Allocates one contiguous block of memory and initializes all bytes to zero
