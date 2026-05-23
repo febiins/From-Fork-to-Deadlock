@@ -11,3 +11,9 @@ build/
 
 # OS generated
 *.log
+
+# Linux executables (no extension)
+fork_basic
+pid_ppid
+processid
+variable_copy
