@@ -123,18 +123,6 @@ Programs:
 
 ---
 
-## Progress
-
-- [x] Stack vs Heap
-- [x] malloc() and free()
-- [ ] fork()
-- [ ] Threads
-- [ ] Mutex
-- [ ] Reader Writer Problem
-- [ ] Deadlock
-
----
-
 ## Interview Topics Covered
 
 - Process vs Thread
@@ -147,3 +135,4 @@ Programs:
 ---
 
 Learning one concept at a time and implementing every topic in C.
+Note:- Since system calls work only on Linux, Windows users should use WSL (Windows Subsystem for Linux). 
