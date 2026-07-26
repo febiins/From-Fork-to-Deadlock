@@ -25,3 +25,56 @@ int main(){
 
     return 0;
 }
+
+/*
+================================================
+
+SHARED VARIABLE DEMO
+
+Initially
+
+Process
+
+Global Variable
+---------------
+counter = 0
+
+
+pthread_create()
+
+             Process
+
+      Main Thread
+            |
+            |
+      Thread T1
+
+
+Both threads access the
+same global variable.
+
+Thread executes
+
+counter++;
+
+Global Memory
+
+counter = 1
+
+Main thread also sees
+
+counter = 1
+
+because threads share
+the same process memory.
+
+Important
+
+Processes
+    Separate Memory
+
+Threads
+    Shared Memory
+
+================================================
+*/
