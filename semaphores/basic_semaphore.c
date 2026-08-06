@@ -72,7 +72,9 @@ int main()
 
     // Create three threads
     pthread_create(&t1, NULL, worker, &id1);
+    sleep(2);
     pthread_create(&t2, NULL, worker, &id2);
+    sleep(2);
     pthread_create(&t3, NULL, worker, &id3);
 
     // Wait until all threads finish
