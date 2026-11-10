@@ -1,14 +1,22 @@
-on: 
+
+name: C Programs CI
+
+on:
   push:
     branches:
       - main
   pull_request:
     branches:
       - main
-      
+
 jobs:
   build:
-    name: first step 
+    name: First Step
     runs-on: ubuntu-latest
-  steps:
-    -uses: actions/checkout@v4
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compile C Programs
+        run: |
+          find . -name "*.c" -print
